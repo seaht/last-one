@@ -1,0 +1,41 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height:100%;
+}
+body{
+	color: #000;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+}
+
+.bigbox{
+	width:100%;
+	height:1500px;
+	background-size: 100%;
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	/*position: relative;*/
+}
+.top-navigation{
+	width:80%;
+	height: 50px;
+	background: #999;
+	position: fixed;
+	left:10%;
+	top:50px;
+	opacity:0.5;
+	border-radius:25px;
+	
+}
+.top-navigation ul{
+	display: flex;
+	justify-content: space-around;
+}
+.top-navigation ul li{
+	height: 100%;
+	line-height: 50px;
+	font-size: 16px;
+}
