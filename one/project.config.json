@@ -1,0 +1,10 @@
+{
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx646bb7909e0de3b8",
+	"projectname": "sea",
+	"condition": {}
+}

@@ -1,0 +1,87 @@
+view {
+  font-family: "SimHei", arial, sans-serif;
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+}
+
+view, text, input, image, button, switch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.page{
+  width: 100%;
+  height: 100%;
+}
+#cover {
+  position: absolute;
+  background-color: rgba(252,252,252,0);
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: background-color 2s; 
+}
+
+#cover.into{
+  background-color: rgba(0,0,0,0.7);
+}
+
+.list {
+  padding: 10rpx;
+  padding-left: 20rpx;
+  background:linear-gradient(to right,#ff8080,#fff);
+  font-size: 16px;
+  margin: 0rpx 30rpx;
+  margin-top:20rpx;
+  border-radius: 10px;
+}
+
+.popup {
+  width: 500rpx;
+  height:300rpx;
+  background: #26292d;
+  position: absolute;
+  top:300rpx;
+  left:125rpx;
+  opacity:1;
+  border-radius:5px;
+  font-size: 14px;
+  /* animation:myfirst 5s; */
+}
+.popup .title {
+  display: block;
+  padding:20rpx 0;
+  text-align: center;
+  color: #b8ad77;
+}
+
+.popup input {
+  margin-top:30rpx;
+  border:1rpx solid #999; 
+  width: 80%;
+  margin-left:10%;
+  border-radius:5px;  
+  padding-left: 15rpx;
+}
+
+.popup button{
+  width: 30%;
+  margin-top: 40rpx;
+}
+
+.popup .confirm{
+  margin-left:10%; 
+  background: #b8ad77;
+  color: #26292d;
+}
+
+.popup .cancel{
+  margin-left:20%;
+  color: #b8ad77;
+}

@@ -1,4 +1,6 @@
 console.log('xx');
-var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-var a = window.location.search.substr(1);
-console.log(a);
+var cont = document.getElementById("time").innerText;
+console.log(cont); 
+if(3>cont){
+	console.log('zz');
+}

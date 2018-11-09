@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="list" bindtap='imports'>吃饭</view>
+  <view class="list" bindtap='imports'>睡觉</view>
+  <view class="list" bindtap='imports'>打游戏</view>
+  <view class="list" bindtap='imports'>买东西</view>
+  <view class="list" bindtap='imports'>坐车</view>
+  <view  id ="cover" class="{{into}}">
+    <view class="popup">
+      <span class="title">今天吃</span>
+      <input type="number" placeholder="ss"/>
+      <button class="confirm" size="mini" type="warn">确认</button>
+      <button class="cancel" size="mini" bindtap='cancel'>取消</button>
+    </view>
+  </view>
+  
+</view>
+
